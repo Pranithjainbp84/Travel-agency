@@ -1,0 +1,198 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    background:  linear-gradient(135deg, #e6e6e6 10%, #d5d5d5 100%);
+  }
+  
+
+  .header {
+    background-image: url('https://1.bp.blogspot.com/-teEj3rZUjQk/UUhq1P2EFsI/AAAAAAAAjXU/c94NKqiCFVQ/s1600/Travel++HD+wallpapers+(3).jpg');
+    background-color: #f8f8f8;
+    background-repeat: no-repeat;
+    padding: 50px 50px;
+    text-align: center;
+   
+  }
+  
+  .header-title {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    border: #fbf9f9;
+    border-radius: 10%;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fefefe;
+  }
+  
+  .h1 {
+
+    font-size: 28px;
+    margin-top: 20px;
+  text-align: center;
+  color: #000000;
+  }
+  
+  .h3 {
+    font-size: 18px;
+    color: #0000009c;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 10px;
+ 
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #a52a2a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 35px;
+  }
+  
+ 
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .nav-links li {
+      display: block;
+      margin-bottom: 10px;
+    }
+}
+
+
+.places-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px auto;
+  }
+  
+  .place {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #000000;
+    background:  linear-gradient(135deg, #e6e6e6 10%, #d5d5d5 100%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 35px;
+  }
+
+  
+  .place img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    width: 300px;
+  height: 400px;
+  box-sizing: border-box;
+  border-radius: 35px;
+  }
+  
+  .place h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .place p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .discover-link {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 35px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .discover-link:hover {
+    background-color: #000000;
+    border-radius: 50%;
+  }
+  
+.footer {
+    background:  linear-gradient(135deg, #000000 10%, #818181 100%);
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .footer-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-copy {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+    }
+  }
+  
+  
