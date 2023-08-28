@@ -18,10 +18,6 @@ The Travel Agency Website is designed to offer users a glimpse into various trav
 
 Experience the Travel Agency Website by visiting: [https://pjtravel-agency.netlify.app/](https://pjtravel-agency.netlify.app/)
 
-## Screenshots
-
-
-
 ## Technologies Used
 
 - HTML
@@ -30,16 +26,6 @@ Experience the Travel Agency Website by visiting: [https://pjtravel-agency.netli
 ## Usage
 
 Feel free to use this project as a reference or template for creating your own travel agency website. Customize the content, styles, and images to suit your agency's branding and offerings.
-
-## Contribution
-
-Contributions to enhance the design and functionality of the Travel Agency Website are welcome! If you're interested in contributing:
-
-1. Fork the repository.
-2. Create a new branch for your changes.
-3. Make your changes and commit them with clear messages.
-4. Push your changes to your forked repository.
-5. Open a pull request describing your changes and their impact.
 
 
 
